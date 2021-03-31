@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  background-color: cyan;
+  color: white;
+  width: 7%;
+  border-radius: 10px;
+}

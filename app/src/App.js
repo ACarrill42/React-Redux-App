@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {getAnimeQuote} from './actions/actions';
+import './App.css'
 
 function App(props) {
 
@@ -14,7 +15,11 @@ const handleNewQuote = e => {
       <h1>Mystery Quotes!</h1>
       <div>
         {props.quote.anime}
+      </div>
+      <div>
         {props.quote.character}
+      </div>
+      <div>
         {props.quote.quote}
       </div>
       <button onClick ={handleNewQuote}>Click for Surprise!</button>
